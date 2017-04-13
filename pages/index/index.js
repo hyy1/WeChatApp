@@ -3,7 +3,7 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '欢迎使用喵云MC后台管理小程序',
     userInfo: {}
   },
   //事件处理函数
@@ -12,11 +12,9 @@ Page({
       url: '../logs/logs'
     })
   },
-  scan: function(){
-    wx.scanCode({
-      success: (res) => {
-        console.log(res)
-      }
+  pluginCenter: function(){
+    wx.navigateTo({
+      url: '../plugins/plugins'
     })
   },
   onLoad: function () {
@@ -29,5 +27,6 @@ Page({
         userInfo:userInfo
       })
     })
+    
   }
 })
