@@ -1,15 +1,19 @@
 
 <!--index.wxml-->
 <view class="container">
-  <view bindtap="userCenter" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
+  <navigator url="/pages/logs/logs">
+    <view class="userinfo">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+  </navigator>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
   <view class="plugins"></view>
   <view>
-    <button bindtap="pluginCenter">查看插件列表</button>
+    <navigator url="/pages/servers/servers">
+      <button type="primary">查看服务器列表</button>
+    </navigator>
   </view>
 </view>
