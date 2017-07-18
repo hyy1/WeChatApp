@@ -12,8 +12,8 @@
   </view>
   <view class="plugins"></view>
   <view>
-    <navigator url="/pages/servers/servers">
-      <button type="primary">查看服务器列表</button>
+    <navigator url="/pages/plugins/plugins">
+      <button type="primary">进入首页</button>
     </navigator>
   </view>
 </view>

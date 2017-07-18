@@ -3,11 +3,11 @@
 var app = getApp()
 Page({
   data: {
-    motto: '欢迎使用喵云MC后台管理小程序',
+    motto: '欢迎使用深蓝99的奇思妙想小程序',
     userInfo: {},
     shareData: {
-      title: '喵云后台管理',
-      desc: '重新定义MC服务器管理模式',
+      title: '奇思妙想',
+      desc: '深蓝99的奇思妙想',
       path: '/'
     }
   },
